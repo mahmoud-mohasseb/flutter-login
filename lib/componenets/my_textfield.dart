@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class MyTextField extends StatelessWidget {
   // const MyTextField({Key? key}) : super(key: key);
+
   final controller;
   final String hintText;
   final bool obscureText;
@@ -11,6 +12,8 @@ class MyTextField extends StatelessWidget {
     required this.hintText,
     required this.obscureText
 });
+
+
   @override
   Widget build(BuildContext context) {
     return Padding(
